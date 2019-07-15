@@ -19,6 +19,7 @@
                  ]
   :plugins [[lein-ring "0.12.5"]
             [lein-cloverage "1.1.1"]]
+  :main newbie.handler
   :ring {:handler newbie.handler/app}
   :profiles {
              :dev {:dependencies [[javax.servlet/javax.servlet-api "3.1.0"]

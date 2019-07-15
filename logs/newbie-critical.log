@@ -5,3 +5,4 @@
 2019-07-15 10:48:20.401 ERROR 1586 --- [tp2099894524-18] n.s.weixin-service   : get access token failed:  40029
 2019-07-15 10:50:30.613 ERROR 1586 --- [tp2099894524-21] n.s.weixin-service   : get access token failed:  40029
 2019-07-15 13:46:58.508 ERROR 4470 --- [tp1571065541-20] n.s.weixin-service   : get access token failed:  40029
+2019-07-15 14:46:06.531 ERROR 4656 --- [tp1571065541-20] n.s.weixin-service   : get access token failed:  40029

@@ -27,3 +27,19 @@
 2019-07-15 13:46:20.207  INFO 4470 --- [           main] o.e.j.s.Server       : Started @38055ms
 2019-07-15 13:46:58.507  INFO 4470 --- [tp1571065541-20] n.s.weixin-service   : access token response:  {:errcode 40029, :errmsg invalid code, hints: [ req_id: WghdZRLnRa-wykH9 ]}
 2019-07-15 13:46:58.508 ERROR 4470 --- [tp1571065541-20] n.s.weixin-service   : get access token failed:  40029
+2019-07-15 14:45:34.484  INFO 4656 --- [           main] o.e.j.u.log          : Logging initialized @22436ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-15 14:45:46.550  INFO 4656 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-07-15 14:45:46.696  INFO 4656 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:19}] to 127.0.0.1:27017
+2019-07-15 14:45:46.700  INFO 4656 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=1073529}
+2019-07-15 14:45:51.204  INFO 4656 --- [           main] o.e.j.s.Server       : jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_211-b12
+2019-07-15 14:45:51.309  INFO 4656 --- [           main] .s.AbstractConnector : Started ServerConnector@25e3ba46{HTTP/1.1,[http/1.1]}{0.0.0.0:3000}
+2019-07-15 14:45:51.313  INFO 4656 --- [           main] o.e.j.s.Server       : Started @39267ms
+2019-07-15 14:46:06.530  INFO 4656 --- [tp1571065541-20] n.s.weixin-service   : access token response:  {:errcode 40029, :errmsg invalid code, hints: [ req_id: WGhdFXXBe-xWKKAA ]}
+2019-07-15 14:46:06.531 ERROR 4656 --- [tp1571065541-20] n.s.weixin-service   : get access token failed:  40029
+2019-07-15 17:39:52.129  INFO 5183 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-07-15 17:39:52.207  INFO 5183 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:20}] to 127.0.0.1:27017
+2019-07-15 17:39:52.209  INFO 5183 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=540552}
+2019-07-15 17:39:53.377  INFO 5183 --- [           main] o.e.j.u.log          : Logging initialized @10206ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-15 17:39:54.043  INFO 5183 --- [           main] o.e.j.s.Server       : jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_211-b12
+2019-07-15 17:39:54.102  INFO 5183 --- [           main] .s.AbstractConnector : Started ServerConnector@3f0938c4{HTTP/1.1,[http/1.1]}{0.0.0.0:3000}
+2019-07-15 17:39:54.103  INFO 5183 --- [           main] o.e.j.s.Server       : Started @10934ms
