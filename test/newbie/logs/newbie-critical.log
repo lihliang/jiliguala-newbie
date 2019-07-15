@@ -1,0 +1,3 @@
+2019-07-15 10:43:08.962 ERROR 1571 --- [           main] n.s.weixin-service   : get access token failed:  40029
+2019-07-15 10:43:09.076 ERROR 1571 --- [           main] n.s.user-service     : openid has already been registered
+2019-07-15 10:43:09.087  WARN 1571 --- [           main] n.s.user-service     : unregister user, openid:  test1

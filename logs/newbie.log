@@ -1,0 +1,20 @@
+2019-07-15 10:44:04.310  INFO 1586 --- [           main] o.e.j.u.log          : Logging initialized @1682ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-15 10:44:10.672  INFO 1586 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-07-15 10:44:10.730  INFO 1586 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:10}] to 127.0.0.1:27017
+2019-07-15 10:44:10.732  INFO 1586 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=604967}
+2019-07-15 10:44:11.920  INFO 1586 --- [           main] o.e.j.s.Server       : jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_211-b12
+2019-07-15 10:44:11.974  INFO 1586 --- [           main] .s.AbstractConnector : Started ServerConnector@3e411e5d{HTTP/1.1,[http/1.1]}{0.0.0.0:3000}
+2019-07-15 10:44:11.975  INFO 1586 --- [           main] o.e.j.s.Server       : Started @9348ms
+2019-07-15 10:44:31.467  INFO 1586 --- [tp2099894524-21] n.s.weixin-service   : access token response:  {:errcode 40029, :errmsg invalid code, hints: [ req_id: VEhdn6yFe-6Z2_4 ]}
+2019-07-15 10:44:31.467 ERROR 1586 --- [tp2099894524-21] n.s.weixin-service   : get access token failed:  40029
+2019-07-15 10:48:20.141  INFO 1586 --- [tp2099894524-18] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:11}] to 127.0.0.1:27017
+2019-07-15 10:48:20.253  INFO 1586 --- [tp2099894524-18] n.s.weixin-service   : access token response:  {:errcode 40029, :errmsg invalid code, hints: [ req_id: XEhdu7aLRa-kPWvNa ]}
+2019-07-15 10:48:20.254 ERROR 1586 --- [tp2099894524-18] n.s.weixin-service   : get access token failed:  40029
+2019-07-15 10:48:20.296  INFO 1586 --- [tp2099894524-18] n.s.user-service     : user registered, openid:  test
+2019-07-15 10:48:20.300 ERROR 1586 --- [tp2099894524-18] n.s.user-service     : openid has already been registered
+2019-07-15 10:48:20.304  INFO 1586 --- [tp2099894524-18] n.s.user-service     : user login, openid:  test
+2019-07-15 10:48:20.309  WARN 1586 --- [tp2099894524-18] n.s.user-service     : unregister user, openid:  test1
+2019-07-15 10:48:20.400  INFO 1586 --- [tp2099894524-18] n.s.weixin-service   : access token response:  {:errcode 40029, :errmsg invalid code, hints: [ req_id: XEhdn0yFe-hYBHGA ]}
+2019-07-15 10:48:20.401 ERROR 1586 --- [tp2099894524-18] n.s.weixin-service   : get access token failed:  40029
+2019-07-15 10:50:30.611  INFO 1586 --- [tp2099894524-21] n.s.weixin-service   : access token response:  {:errcode 40029, :errmsg invalid code, hints: [ req_id: YEhdGY4ce-74aolA ]}
+2019-07-15 10:50:30.613 ERROR 1586 --- [tp2099894524-21] n.s.weixin-service   : get access token failed:  40029

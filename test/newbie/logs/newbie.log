@@ -1,0 +1,11 @@
+2019-07-15 10:43:06.258  INFO 1571 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-07-15 10:43:06.353  INFO 1571 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:8}] to 127.0.0.1:27017
+2019-07-15 10:43:06.358  INFO 1571 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, roundTripTimeNanos=1907118}
+2019-07-15 10:43:07.842  INFO 1571 --- [           main] o.e.j.u.log          : Logging initialized @13427ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-15 10:43:08.961  INFO 1571 --- [           main] n.s.weixin-service   : access token response:  {:errcode 40029, :errmsg invalid code, hints: [ req_id: vEhd5ZyFe-wgNeLa ]}
+2019-07-15 10:43:08.962 ERROR 1571 --- [           main] n.s.weixin-service   : get access token failed:  40029
+2019-07-15 10:43:09.000  INFO 1571 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:9}] to 127.0.0.1:27017
+2019-07-15 10:43:09.070  INFO 1571 --- [           main] n.s.user-service     : user registered, openid:  test
+2019-07-15 10:43:09.076 ERROR 1571 --- [           main] n.s.user-service     : openid has already been registered
+2019-07-15 10:43:09.079  INFO 1571 --- [           main] n.s.user-service     : user login, openid:  test
+2019-07-15 10:43:09.087  WARN 1571 --- [           main] n.s.user-service     : unregister user, openid:  test1

@@ -1,0 +1,15 @@
+2019-07-12 10:46:37.620  WARN 1476 --- [tp1078149210-19] n.s.user-service     : unregister user, openid:  string
+2019-07-12 10:47:45.695 ERROR 1476 --- [tp1078149210-20] n.s.user-service     : invalid openId or productId, openid:  012 , pid:  210
+2019-07-12 10:48:35.009 ERROR 1476 --- [tp1078149210-20] n.s.weixin-service   : get access token failed:  40029
+2019-07-12 11:23:06.072 ERROR 1616 --- [tp1571065541-16] n.s.weixin-service   : get access token failed:  40029
+2019-07-12 11:23:15.642 ERROR 1616 --- [tp1571065541-18] n.s.weixin-service   : get access token failed:  40029
+2019-07-12 11:23:21.033 ERROR 1616 --- [tp1571065541-17] n.s.weixin-service   : get access token failed:  40029
+2019-07-12 15:43:42.968 ERROR 2555 --- [qtp599940415-19] n.s.user-service     : invalid openId or productId, openid:  456 , pid:  5d2837a029258f09fb5e23ae
+2019-07-12 15:48:57.693 ERROR 2555 --- [qtp599940415-14] n.s.user-service     : invalid openId or productId, openid:  456 , pid:  5d27ff0c29258f065054bed0
+2019-07-12 15:49:41.518 ERROR 2555 --- [qtp599940415-16] n.s.user-service     : invalid openId or productId, openid:  456 , pid:  5d2837a029258f09fb5e23ae
+2019-07-12 15:56:34.716 ERROR 2555 --- [qtp599940415-20] n.s.user-service     : invalid openId or productId, openid:  012 , pid:  5d27ff0c29258f065054bed0
+2019-07-12 15:59:26.502 ERROR 2555 --- [qtp599940415-16] n.s.user-service     : invalid openId or productId, openid:  012 , pid:  1
+2019-07-12 15:59:28.438 ERROR 2555 --- [qtp599940415-18] n.s.user-service     : invalid openId or productId, openid:  012 , pid:  1
+2019-07-12 15:59:46.142 ERROR 2555 --- [qtp599940415-13] n.s.user-service     : invalid openId or productId, openid:  012 , pid:  1
+2019-07-12 15:59:46.837 ERROR 2555 --- [qtp599940415-18] n.s.user-service     : invalid openId or productId, openid:  012 , pid:  1
+2019-07-12 16:05:52.544 ERROR 2555 --- [qtp599940415-14] n.s.user-service     : openid has already been registered
