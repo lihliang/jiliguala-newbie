@@ -6,12 +6,12 @@
             [newbie.handler :refer :all]
             [newbie.repository.mongodb :as mg]))
 
-;(defn db_init "init mongo db"
-;  [test-fn]
-;  (mg/clear-users)
-;  (mg/clear-orders)
-;  (mg/clear-products)
-;  (test-fn))
+(defn db_init "init mongo db"
+  [test-fn]
+  (mg/clear-users)
+  (mg/clear-orders)
+  (mg/clear-products)
+  (test-fn))
 
 (deftest test-app
   (testing "main route"
@@ -81,5 +81,5 @@
                    :result {}}))))
   )
 
-;(use-fixtures :once db_init)
+(use-fixtures :once db_init)
 (run-tests)
