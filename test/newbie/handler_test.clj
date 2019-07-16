@@ -58,17 +58,17 @@
                    :errmsg "already registered"
                    :result {}}))))
 
-  ;(testing "user login route"
-  ;  (let [response (app (-> (mock/request :post "/user/login")
-  ;                          (mock/json-body {:openid "test"})))
-  ;        body (cheshire/parse-string (slurp (:body response)) true)
-  ;        result (cheshire/parse-string (:result body) true)]
-  ;    (is (= (:status response) 200))
-  ;    (is (= (select-keys body [:isSuccess :errcode :errmsg]) {:isSuccess true
-  ;                                                             :errcode 0
-  ;                                                             :errmsg ""}))
-  ;    (is (= (select-keys result [:openid :sex]) {:openid "test"
-  ;                                                :sex "1"}))))
+  (testing "user login route"
+    (let [response (app (-> (mock/request :post "/user/login")
+                            (mock/json-body {:openid "test"})))
+          body (cheshire/parse-string (slurp (:body response)) true)
+          result (cheshire/parse-string (:result body) true)]
+      (is (= (:status response) 200))
+      (is (= (select-keys body [:isSuccess :errcode :errmsg]) {:isSuccess true
+                                                               :errcode 0
+                                                               :errmsg ""}))
+      (is (= (select-keys result [:openid :sex]) {:openid "test"
+                                                  :sex "1"}))))
 
   (testing "unregister user login route"
     (let [response (app (-> (mock/request :post "/user/login")
