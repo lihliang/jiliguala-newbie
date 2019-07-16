@@ -8,7 +8,8 @@
             [ring.adapter.jetty :refer [run-jetty]]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
             [ring.middleware.reload :refer [wrap-reload]]
-            [schema.core :as s]))
+            [schema.core :as s])
+  (:gen-class))
 
 (def app
   (api

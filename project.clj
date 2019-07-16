@@ -19,9 +19,13 @@
                  ]
   :plugins [[lein-ring "0.12.5"]
             [lein-cloverage "1.1.1"]]
-  :main newbie.handler
-  :ring {:handler newbie.handler/app}
+  :main  ^:skip-aot newbie.handler
+  ;:ring {:handler newbie.handler/app}
   :profiles {
+             :uberjar {:omit-source true
+                       :aot :all
+                       :uberjar-name "jiliguala-newbie.jar"
+                       :resource-paths ["resources/dev"]}
              :dev {:dependencies [[javax.servlet/javax.servlet-api "3.1.0"]
                                   [ring/ring-mock "0.3.2"]]
                    :resource-paths ["resources/dev"]}

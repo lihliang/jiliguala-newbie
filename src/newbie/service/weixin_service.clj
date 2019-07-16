@@ -7,8 +7,8 @@
     [newbie.util.response-util :as res]
     ))
 
-(def APP_ID "wx949359209ebdbc3f")
-(def APP_SECRET "fbebd2283a5c9fa914eb595284e37426")
+(def APP_ID "wx2dc64fe9107b1a39")
+(def APP_SECRET "153607d2ca216762f14b839a50be7ffa")
 (def SCOPE "snsapi_userinfo")
 (def STATE "state")
 (def TIMEOUT 200)
@@ -66,7 +66,7 @@
 (defn weixin-auth-info
   []
   (let [query-params {:appid APP_ID
-                      :redirect_uri (encoder/url-encode "http://nickywu.vipgz1.idcfengye.com/api/weixin-info")
+                      :redirect_uri (encoder/url-encode "http://47.103.91.241/api/weixin-info")
                       :response_type "code"
                       :scope SCOPE
                       :state STATE}]
